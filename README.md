@@ -1,7 +1,5 @@
 # 2022-Yazilim-Gelistirici-Yetistirme-Kampi-JAVA
-Java Kamp ödevleri
-
-// Proje hakkında genel açıklama metni yazılır
+Java Kamp ödevlerine aşağıdan ulaşabilirsiniz. Eleştiri, öneri ve görüşlerinizi lütfen belirtiniz. Teşekkürler.
 
  <details><summary>Gün I</summary>
   

@@ -5,38 +5,115 @@ Java Kamp ödevleri
 
 <details><summary>Gün I</summary>
   
-[hi](https://hello.ca)
+  <details><summary>Ödev I</summary>
+    
+  [hi](https://hello.ca)
+  
+  </details>
+  <details><summary>Ödev II</summary>
+    
+  [hi](https://hello.ca)
+  
+  </details>
 
 </details>
+
+
+___
+
 <details><summary>Gün II</summary>
   
-[hi](https://hello.ca)
+  <details><summary>Ödev I</summary>
+    
+  [hi](https://hello.ca)
+  
+  </details>
+  <details><summary>Ödev II</summary>
+    
+  [hi](https://hello.ca)
+  
+  </details>
 
 </details>
+
+
+___
+
 <details><summary>Gün III</summary>
+ 
+  <details><summary>Ödev I</summary>
+    
+  [hi](https://hello.ca)
   
-[hi](https://hello.ca)
+  </details>
+  <details><summary>Ödev II</summary>
+    
+  [hi](https://hello.ca)
+  
+  </details>
+ 
+  <details><summary>Ödev III</summary>
+    
+  [hi](https://hello.ca)
+  
+  </details>
+  <details><summary>Ödev IV</summary>
+    
+  [hi](https://hello.ca)
+  
+  </details>
+ 
+  <details><summary>Ödev V</summary>
+    
+  [hi](https://hello.ca)
+  
+  </details>
+  <details><summary>Ödev VI</summary>
+    
+  [hi](https://hello.ca)
+  
+  </details>
 
 </details>
+
+
+___
+
 <details><summary>Gün IV</summary>
+ 
+  <details><summary>Ödev I</summary>
+    
+  [hi](https://hello.ca)
   
-[hi](https://hello.ca)
+  </details>
+  <details><summary>Ödev II</summary>
+    
+  [hi](https://hello.ca)
+  
+  </details>
 
 </details>
+
+___
+
 <details><summary>Gün V</summary>
   
-<details><summary>Ödev II</summary>
+  <details><summary>Ödev I</summary>
+    
+  [hi](https://hello.ca)
   
-[hi](https://hello.ca)
-
-</details>
-<details><summary>Ödev I</summary>
+  </details>
+  <details><summary>Ödev II</summary>
+    
+  [hi](https://hello.ca)
   
-[hi](https://hello.ca)
+  </details>
 
 </details>
 
-</details>
+___
+
+
 
  * [GÜN 1](./tree-md)
    * [Ödev 1](./dir2/file21.ext)

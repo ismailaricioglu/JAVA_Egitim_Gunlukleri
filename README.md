@@ -1,8 +1,11 @@
 Sıralı işlem basamakları
-* Tüm ödevleri lisel bir şekilde sun
+* [ Tamalandı ] Tüm ödevleri listeli bir şekilde sun
+* Eleme yap, gerekçesi ile beraber açıkla
 * İlgili ödevleri kategorize et
-  * kategori 1
-  * kategori 2
+  * Resimli anlatımlar
+  * Metinli anlatımlar
+  * Kod içerikli anlatımlar
+* Bitir
 
 # 2022-Yazilim-Gelistirici-Yetistirme-Kampi-JAVA
 Java Kamp ödevlerine aşağıdan ulaşabilirsiniz. Eleştiri, öneri ve görüşlerinizi lütfen belirtiniz. Teşekkürler.

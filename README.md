@@ -4,7 +4,7 @@ Sıralı işlem basamakları
 * İlgili ödevleri kategorize et
   * Resimli anlatımlar
   * Metinli anlatımlar
-  * Kod içerikli anlatımlar
+  * Kod içerikli anlatımlar, ayrı bir sayfaya yönlendir
 * Bitir
 
 # 2022-Yazilim-Gelistirici-Yetistirme-Kampi-JAVA

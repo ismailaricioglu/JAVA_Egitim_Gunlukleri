@@ -5,8 +5,8 @@ Java Kamp ödevleri
 
  <details><summary>Gün I</summary>
   
-  # Ödev I
-  # Ödev II
+  #### Ödev I
+  #### Ödev II
 
 </details>
 
@@ -15,8 +15,8 @@ ___
 
 <details><summary>Gün II</summary>
   
-  # Ödev I
-  # Ödev II
+  #### Ödev I
+  #### Ödev II
 
 </details>
 
@@ -39,8 +39,8 @@ ___
 
 <details><summary>Gün IV</summary>
  
-  # Ödev I
-  # Ödev II
+  #### Ödev I
+  #### Ödev II
 
 </details>
 
@@ -48,8 +48,8 @@ ___
 
 <details><summary>Gün V</summary>
   
-  # Ödev I
-  # Ödev II
+  #### Ödev I
+  #### Ödev II
 
 </details>
 

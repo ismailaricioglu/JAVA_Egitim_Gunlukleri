@@ -2,7 +2,11 @@
 Java Kamp ödevleri
 
 
-# Project tree
+<details><summary>Gün 1</summary>
+
+[hi](https://hello.ca)
+
+</details>
 
  * [GÜN 1](./tree-md)
    * [Ödev 1](./dir2/file21.ext)

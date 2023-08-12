@@ -101,7 +101,24 @@ ___
 <details><summary>Gün IV</summary>
  
   #### Ödev I
+
+  Adayların kodlama becerilerini iş verenlerle buluşturduğumuz bir proje yazmak istiyoruz.
+Proje ismi : Kodlama.io.Devs
+Basit bir gereksinimle başlayalım.
+Req 1 : Sistemde programlama dilleri tutulmalıdır.
+Programlama dillerini(C#,Java,Python) ekleyebilecek, silebilecek, güncelleyebilecek, listeleyebilecek, id ile getirebilecek kodları yazınız. Bunu tamamen in memory yapınız.
+İsimler tekrar edemez.
+Programlama dili boş geçilemez. (Validation kullanmadan, kod yazarak algoritmik çözünüz)
+Önemli : Asla copy paste yapmayınız. Projeyi sıfırdan oluşturacağınız için vakit alacaktır ama konuyu pekiştirmenizi sağlar.
+Kodlarınızı github'a aktarıp yorumlara github adresinizi yazınız.
+Diğer arkadaşlarınızın kodlarını inceleyiniz. Beğenirseniz yıldızlayınız.
+
   #### Ödev II
+
+  Aşağıdaki başlıkları içeren araştırma yapıp bir medium yazısı yazınız.
+
+Rest nedir?
+Http Anahtar kelimeleri nelerdir? Açıklayınız
 
 </details>
 
@@ -110,7 +127,19 @@ ___
 <details><summary>Gün V</summary>
   
   #### Ödev I
+
+  Ar-ge : Spring Boot üzerinde JPA-Hibernate için entity ilişkilerini araştırınız. (One-To-One, One-To-Many)
+Bunu bir sonraki ödevinizde uygulayınız.
+
   #### Ödev II
+
+  Req 2 : Sisteme programlama dillerine ait alt teknolojiler eklenebilmeli, silinebilmeli. güncellenebilmeli, listelenebilmelidir.
+Örneğin; Java : Spring, JSP.
+C#: WPF, ASP.NET ,
+JavaScript : Vue, React
+Önemli : Asla copy paste yapmayınız. Projeyi sıfırdan oluşturacağınız için vakit alacaktır ama konuyu pekiştirmenizi sağlar.
+Kodlarınızı github'a aktarıp yorumlara github adresinizi yazınız.
+Diğer arkadaşlarınızın kodlarını inceleyiniz. Beğenirseniz yıldızlayınız.
 
 </details>
 

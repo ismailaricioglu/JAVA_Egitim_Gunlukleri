@@ -3,7 +3,7 @@ Java Kamp ödevleri
 
 // Proje hakkında genel açıklama metni yazılır
 
-<details><summary>Gün I</summary>
+ <details><summary>Gün I</summary>
   
   # Ödev I
   # Ödev II
@@ -25,12 +25,12 @@ ___
 
 <details><summary>Gün III</summary>
  
-  # Ödev I
-  ## Ödev II
-  ### Ödev III
+  #### Ödev I
+  #### Ödev II
+  #### Ödev III
   #### Ödev IV
-  ##### Ödev V
-  ###### Ödev VI
+  #### Ödev V
+  #### Ödev VI
 
 </details>
 

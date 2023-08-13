@@ -108,7 +108,7 @@ ___
 
 <details><summary>Gün IV</summary>
  
-  #### Ödev I
+  #### Ödev I Kod içerikli anlatımlar
 
   Adayların kodlama becerilerini iş verenlerle buluşturduğumuz bir proje yazmak istiyoruz.
 Proje ismi : Kodlama.io.Devs
@@ -121,7 +121,7 @@ Programlama dili boş geçilemez. (Validation kullanmadan, kod yazarak algoritmi
 Kodlarınızı github'a aktarıp yorumlara github adresinizi yazınız.
 Diğer arkadaşlarınızın kodlarını inceleyiniz. Beğenirseniz yıldızlayınız.
 
-  #### Ödev II
+  #### Ödev II Metinli anlatımlar - (Gerekir ise) Resimli anlatımlar ve/veya link verme
 
   Aşağıdaki başlıkları içeren araştırma yapıp bir medium yazısı yazınız.
 
@@ -134,12 +134,12 @@ ___
 
 <details><summary>Gün V</summary>
   
-  #### Ödev I
+  #### Ödev I (Gerekirse) Metinli anlatımlar
 
   Ar-ge : Spring Boot üzerinde JPA-Hibernate için entity ilişkilerini araştırınız. (One-To-One, One-To-Many)
 Bunu bir sonraki ödevinizde uygulayınız.
 
-  #### Ödev II
+  #### Ödev II Kod içerikli anlatımlar
 
   Req 2 : Sisteme programlama dillerine ait alt teknolojiler eklenebilmeli, silinebilmeli. güncellenebilmeli, listelenebilmelidir.
 Örneğin; Java : Spring, JSP.

@@ -5,6 +5,7 @@ Sıralı işlem basamakları
   * Resimli anlatımlar
   * Metinli anlatımlar
   * Kod içerikli anlatımlar, ayrı bir sayfaya yönlendir
+  * Video kaydı izlemeleri
 * Bitir
 
 # 2022-Yazilim-Gelistirici-Yetistirme-Kampi-JAVA
@@ -12,12 +13,12 @@ Java Kamp ödevlerine aşağıdan ulaşabilirsiniz. Eleştiri, öneri ve görü�
 
  <details><summary>Gün I</summary>
   
-  #### Ödev I
+  #### Ödev I Resimli anlatımlar
   
   Trendyol sitesine girdiğiniz zaman bu sitede kullanılan şartlı bloklara ve döngülerle yapılmış alanlara örnekler bulunuz.
 Görsellerle işaretleyip belirtiniz.
   
-  #### Ödev II
+  #### Ödev II Kod içerikli anlatımlar
 
   https://www.youtube.com/watch?v=a8Fe2qbnYDM&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=2
 Bu oynatma listesinde 1-23 arasındaki tüm dersleri izleyip uygulayınız.(1-23 dahil) Intellij, netbeans veyaeclipse kullanabilirsiniz.
@@ -35,13 +36,13 @@ ___
 
 <details><summary>Gün II</summary>
   
-  #### Ödev I
+  #### Ödev I Video kaydı izlemeleri
 
   Bugün (22 Eylül 2022) 20.00'de discordda bulununuz.
 Sorularınız varsa pair odalarında size destek olması için canlı-ders kanalından destek isteyiniz.
 Sorularınız yoksa, sorusu olanlara destek veriniz.
 
-  #### Ödev II
+  #### Ödev II Kod içerikli anlatımlar
 
 https://www.youtube.com/watch?v=uucRtKBo6Yg&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8
 Bu oynatma listesindeki videoları 24-37 aralığında izleyip uygulayınız.
@@ -57,17 +58,17 @@ ___
 
 <details><summary>Gün III</summary>
  
-  #### Ödev I
+  #### Ödev I Kod içerikli anlatımlar
 
   https://www.youtube.com/watch?v=H3QOQRh8cgk&list=PLqG356ExoxZWfcrBP53Njxir4a-OgqRki&index=2
 Bu videoyu baştan sona izleyip uygulayınız. Olayın netleşmesine destek olacak.
 
-  #### Ödev II
+  #### Ödev II Kod içerikli anlatımlar
 
   https://www.youtube.com/watch?v=uucRtKBo6Yg&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8
 Bu oynatma listesini 33. dersten itibaren sonuna kadar tekrar izleyip uygulayınız.
 
-  #### Ödev III
+  #### Ödev III Kod içerikli anlatımlar
 
   kodlama.io web sitesinin ana sayfasında bulunan eğitmen, kategori ve kurs bölümlerini katmanlı mimaride kodlamak istiyoruz.
 Önceki derste yaptığımız tekniklerle hem jdbc hem de hibernate üzerinde yazmış gibi simüle ediniz.
@@ -80,13 +81,13 @@ Kodlarınızı github'a aktarınız
 Diğer arkadaşlarınızın kodlarını inceleyip beğenirseniz yıldızlayınız.
 Not: Aldığınız yıldızlar github sayfa kaliteniz için sektörde çok belirleyicidir.
 
-  #### Ödev IV
+  #### Ödev IV Metinli anlatımlar
 
   Medium.com sitesinde hesap açınız.
 Hiç bilmeyen birine Java'da değer ve referans tipleri anlatan bir makale yazınız.
 Hiç bilmeyen birine Java'da interfaceleri anlatan başka bir makale daha yazınız.
 
-  #### Ödev V
+  #### Ödev V Kod içerikli anlatımlar - Resimli anlatımlar
 
   Sql bir programcının mutlaka bilmesi gereken bir konudur.
 Aşağıdaki videoyu izleyip uygulayınız.
@@ -94,7 +95,7 @@ https://www.youtube.com/watch?v=r_pbdopB4LU&list=PLqG356ExoxZVN7rC0KmMo0lvECK97V
 Muhtemelen Visual Studio sizde yok. Hiç uğraşmayıp kodları aşağıdaki editörde yazıp uygulayınız.
 https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all
 
-  #### Ödev VI
+  #### Ödev VI Metinli anlatımlar - Tablolu anlatımlar
 
   Aşağıdaki oynatma listesi çok önemli.
 İzleyip excel'de siz de uygulayınız.

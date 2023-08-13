@@ -17,6 +17,13 @@ Java Kamp ödevlerine aşağıdan ulaşabilirsiniz. Eleştiri, öneri ve görü�
   
   Trendyol sitesine girdiğiniz zaman bu sitede kullanılan şartlı bloklara ve döngülerle yapılmış alanlara örnekler bulunuz.
 Görsellerle işaretleyip belirtiniz.
+
+Cevap :
+
+Şartlı bloklar için örnek ekran görüntüsü ![Gun1_Odev1_Trendyol_SartlıBloklar](https://github.com/ismailaricioglu/2022-Yazilim-Gelistirici-Yetistirme-Kampi-JAVA/assets/93845776/b5b333b3-4d3f-4219-9da5-702f22e57c26)
+
+Dögü alamları için örnek ekran görüntüsü ![Gun1_Odev1_Trendyol_DonguAlanlari](https://github.com/ismailaricioglu/2022-Yazilim-Gelistirici-Yetistirme-Kampi-JAVA/assets/93845776/8d80b96d-4425-4000-906b-1946ce018eb5)
+
   
   #### • Ödev II Kod içerikli anlatımlar
 

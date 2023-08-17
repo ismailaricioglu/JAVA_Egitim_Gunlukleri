@@ -94,6 +94,10 @@ Not: Aldığınız yıldızlar github sayfa kaliteniz için sektörde çok belir
 Hiç bilmeyen birine Java'da değer ve referans tipleri anlatan bir makale yazınız.
 Hiç bilmeyen birine Java'da interfaceleri anlatan başka bir makale daha yazınız.
 
+Cevap : 
+
+https://medium.com/@ggl.issoline/javada-de%C4%9Fer-ve-referans-tipler-c9a5e8b2b738
+
   #### • Ödev V Kod içerikli anlatımlar - Resimli anlatımlar
 
   Sql bir programcının mutlaka bilmesi gereken bir konudur.

@@ -96,7 +96,11 @@ Hiç bilmeyen birine Java'da interfaceleri anlatan başka bir makale daha yazın
 
 Cevap : 
 
+Java'da değer ve referans tipleri : 
 https://medium.com/@ggl.issoline/javada-de%C4%9Fer-ve-referans-tipler-c9a5e8b2b738
+
+Java'da interfaceleri :
+https://medium.com/@ggl.issoline/javada-interfaceler-614d32a0fcd
 
   #### • Ödev V Kod içerikli anlatımlar - Resimli anlatımlar
 

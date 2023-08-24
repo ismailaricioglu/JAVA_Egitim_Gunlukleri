@@ -40,18 +40,18 @@ public class ExamplesOfVariables {
 
     // Non-Primitive Data Type
     public class NonPrimitiveVariables {
-        boolean aBoolean;
-        byte aByte;
-        public void NonPrimitiveVariablesMaxValue() {
-            // Maximum
-            aBoolean = true;
-            aByte = 127;
-        }
-        public void NonPrimitiveVariablesMinValue() {
-            // Minimum
-            aBoolean = false;
-            aByte = -128;
+        String aString;
 
+        // Maximum
+        public void MaxValue() {
+            aString = "Therefore, the maximum length of String in Java is 0 to 2147483647";
+            System.out.println(aString);
+        }
+    
+        // Minimum
+        public void MinValue() {
+            aString = "0";
+            System.out.println(aString);
         }
     }
 

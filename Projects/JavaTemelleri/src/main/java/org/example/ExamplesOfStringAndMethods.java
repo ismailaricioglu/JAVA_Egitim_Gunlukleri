@@ -1,5 +1,8 @@
 package org.example;
 
+import java.time.LocalDate;
+import java.util.Calendar;
+
 public class ExamplesOfStringAndMethods {
 
     // String Length
@@ -112,5 +115,57 @@ public class ExamplesOfStringAndMethods {
         // valueOf() - String
         aString += String.valueOf(1000 + 1);
         System.out.println(aString.toString() + " String.valueOf(1000 + 1) ile değeri String tipine çevirir");
+    }
+    public void StringByFormatMethods(){
+        // format() - String
+        // String formatting examples
+        String aString;
+        aString = "String formatting examples";
+// %a	kayan nokta (BigDecimal hariç) *|* Kayan nokta sayısının Hex çıktısını döndürür.
+        System.out.println(String.format("%a", 10.01f));
+// %b	Her hangi bir tür *|* "true" if non-null, "false" if null
+        System.out.println(String.format("%b", "true if not null"));
+// %c	character *|* Unicode character
+        System.out.println(String.format("%c", 65));
+// %d	integer (incl. byte, short, int, long, bigint) *|* Decimal Integer
+        System.out.println(String.format("%d", (byte) 0101));
+        System.out.println(String.format("%d", 102));
+        System.out.println( String.format("|%10d|", 102));  // Specifying length of integer
+        System.out.println( String.format("|%-10d|", 102)); // Left-justifying within the specified width
+        System.out.println(String.format("|% d|", 102));
+        System.out.println(String.format("|%010d|", 102)); // Filling with zeroes
+// %e	floating point *|* bilimsel gösterimde ondalık sayı
+        System.out.println(String.format("%e", 10.1f));
+// %f	floating point *|* ondalık sayı
+        System.out.println(String.format("%f", 10.1f));
+// %g	floating point *|* ondalık sayı, muhtemelen kesinliğe ve değere bağlı olarak bilimsel gösterimde.
+        System.out.println(String.format("%g", 10.1f));
+// %h	Her hangi bir tür *|* Hex HashCode() yönteminden gelen değer dizesi.
+        System.out.println(String.format("%h", 10));
+// %n	hiçbiri *|* Platforma özel hat ayırıcı.
+        System.out.println("hat başı");
+        System.out.print(String.format("%n"));
+        System.out.println("hat sonu");
+// %o	integer (incl. byte, short, int, long, bigint) *|* Sekizli sayı
+        System.out.println(String.format("%o", 8));
+// %s	Her hangi bir tür *|* String value
+        System.out.println(String.format("%s", 10.1d + 1));
+// %t	Date/Time (incl. long, Calendar, Date and TemporalAccessor) *|* %t Tarih/Saat dönüşümlerinin önekidir. Bundan sonra daha fazla biçimlendirme bayrağına ihtiyaç vardır. Aşağıdaki Tarih/Saat dönüşümüne bakın.
+        // T: time
+        System.out.println(String.format("%tT", Calendar.getInstance()));
+        // A: Full name of the day of the week
+        System.out.println(String.format("%tA", LocalDate.now()));
+        // a: Short name of the day of the week
+        System.out.println(String.format("%ta", LocalDate.now()));
+        // B: Full name of the month
+        System.out.println(String.format("%tB", LocalDate.now()));
+        // b: Short name of the month
+        System.out.println(String.format("%tb", LocalDate.now()));
+        // C: Last two digits of the year, starting from 00 to 99
+        System.out.println(String.format("%tC", LocalDate.now()));
+        // D: Date formatted as “%tm/%td/%ty”, like “07/15/19”
+        System.out.println(String.format("%tD", LocalDate.now()));
+// %x	integer (incl. byte, short, int, long, bigint) *|* Onaltılık sayı
+        System.out.println(String.format("%x", 15));
     }
 }

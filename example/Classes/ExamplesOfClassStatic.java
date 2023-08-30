@@ -1,13 +1,13 @@
 package org.example;
 
 public class ExamplesOfClassStatic {
-    public ExamplesOfClassStatic() {
+    public static String aString = "static class run";
 
+    public ExamplesOfClassStatic(String aString) {
+        this.aString = aString;
     }
-    public static void Run(){
-        System.out.println("static class run");
-    }
-    public static void Run2(){
-        System.out.println("static class run");
+
+    public static void Run() {
+        System.out.println(aString);
     }
 }

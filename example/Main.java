@@ -9,9 +9,11 @@ public class Main {
 
         // Classes
         //ExamplesOfClass examplesOfClass = new ExamplesOfClass(1,2,3,-1,0,10,-9);
+        // Static
+        /*
         ExamplesOfClassStatic.Run();
         ExamplesOfClassStatic examplesOfClassStatic = new ExamplesOfClassStatic("init class run");
-        examplesOfClassStatic.Run();
+        examplesOfClassStatic.Run();*/
 
         // Inheritance
         /*

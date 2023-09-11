@@ -27,15 +27,9 @@ Java İç (inner) sınıfının kullanım nedenleri:
 
      Statik olmayan iç içe (nested) sınıf (iç (inner) sınıf )
 
-        • Üye iç sınıfı (Member inner class ) : Bir üyenin iç sınıfının nesnesi veya örneği her zaman dış sınıfındaki bir nesnenin içinde bulunur. Üye iç sınıfının nesnesini oluşturmak için biraz farklılık gösteren yazımla new oğeratörü kullanılır. Bu durumda Java derleyicisi Outer$Inner (dış$iç) adında bir sınıf dosyası oluşturur. Üye iç sınıfı dış sınıfının referansına sahiptir, bu nedenle özel sınıf dahil Outer sınıfının tüm veri üyelerine erişebilir.
-
-        • Anonim iç sınıf (Anonymous inner class) : Java anonim iç sınıfı, adı olmayan ve kendisi için yalnızca tek bir nesnenin oluşturulduğu bir iç sınıftır.
-
-        • Yerel iç sınıf (Local inner class) : Bir yöntemin (method) içinde oluşturulan bir sınıftır. Yerel İç Sınıflar, bir blok içerisinde tanımlanır. Genellikle bu blok bir yöntem gövdesidir. Az kullanılsada bu blok bir for döngüsü veya bir if cümlesi olabilir. Yerel İç sınıflar herhangi bir çevreleyen sınıfın üyesi değildir. Yerel iç sınıfların kendileriyle ilişkili herhangi bir erişim değiştiriciye sahip olmaması nedeniyle, içinde tanımlandıkları bloğa aittirler. Ancak nihai (final) veya soyut (abstrcart) olarak işaretlenebilirler. Bu sınıflar, kendilerini çevreleyen sınıfın alanlarına erişebilir.
-          
-        Not & Rules: Local variables can't be private, public, or protected.
-            1) Local inner class cannot be invoked from outside the method.
-            2) Local inner class cannot access non-final local variable till JDK 1.7. Since JDK 1.8, it is possible to access the non-final local variable in the local inner class.
+        • Üye iç sınıfı (Member inner class )
+        • Anonim iç sınıf (Anonymous inner class)
+        • Yerel iç sınıf (Local inner class)
 
     Static nested class
 
@@ -53,3 +47,20 @@ Java İç (inner) sınıfının kullanım nedenleri:
             • nested interface which is declared within the interface
             • nested interface which is declared within the class
             • nested class which is declared within the interface
+
+İç İçe (nested) Sınıf Türleri Açıklamaları:
+
+     Statik olmayan iç içe (nested) sınıf (iç (inner) sınıf )
+
+• Üye iç sınıfı (Member inner class ) : Bir üyenin iç sınıfının nesnesi veya örneği her zaman dış sınıfındaki bir nesnenin içinde bulunur. Üye iç sınıfının nesnesini oluşturmak için biraz farklılık gösteren yazımla new oğeratörü kullanılır. Bu durumda Java derleyicisi Outer$Inner (dış$iç) adında bir sınıf dosyası oluşturur. Üye iç sınıfı dış sınıfının referansına sahiptir, bu nedenle özel sınıf dahil Outer sınıfının tüm veri üyelerine erişebilir.
+
+• Anonim iç sınıf (Anonymous inner class) : Java anonim iç sınıfı, adı olmayan ve kendisi için yalnızca tek bir nesnenin oluşturulduğu bir iç sınıftır.
+
+• Yerel iç sınıf (Local inner class) : Bir yöntemin (method) içinde oluşturulan bir sınıftır. Yerel İç Sınıflar, bir blok içerisinde tanımlanır. Genellikle bu blok bir yöntem gövdesidir. Az kullanılsada bu blok bir for döngüsü veya bir if cümlesi olabilir. Yerel İç sınıflar herhangi bir çevreleyen sınıfın üyesi değildir. Yerel iç sınıfların kendileriyle ilişkili herhangi bir erişim değiştiriciye sahip olmaması nedeniyle, içinde tanımlandıkları bloğa aittirler. Ancak nihai (final) veya soyut (abstrcart) olarak işaretlenebilirler. Bu sınıflar, kendilerini çevreleyen sınıfın alanlarına erişebilir.
+          
+        Not : Yerel değişkenler özel, genel veya korumalı olamaz.
+
+        Kurallar:
+
+             1) Yerel iç sınıf, yöntemin dışından çağrılamaz.
+             2) Yerel iç sınıf, JDK 1.7'ye kadar nihai (non-final) olmayan yerel değişkene erişemez. JDK 1.8'den bu yana, yerel iç sınıfta nihai olmayan yerel değişkene erişebilinmektedir.

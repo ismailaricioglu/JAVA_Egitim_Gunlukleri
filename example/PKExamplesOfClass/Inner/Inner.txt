@@ -1,6 +1,6 @@
-Java Inner Classes (Nested Classes)
+Java İç Sınıfları (İç İçe Sınıflar)
 
-    Java inner class or nested class is a class that is declared inside the class or interface.
+     Java iç sınıfı (inner class) veya iç içe geçmiş sınıf (nested class), sınıf veya arayüz içinde bildirilen bir sınıftır.
 
 class Java_Outer_class{
     //code
@@ -9,22 +9,17 @@ class Java_Outer_class{
     }
 }
 
-Advantage of Java inner classes
+Java iç (inner) sınıflarının avantajı
 
-    1- Nested classes represent a particular type of relationship that is it can access all
-        the members (data members and methods) of the outer class, including private.
-    2- Nested classes are used to develop more readable and maintainable code because
-        it logically group classes and interfaces in one place only.
-    3- Code Optimization: It requires less code to write.
+     1- İç içe (nested) sınıflar belirli bir ilişki türünü temsil eder; yani özel de dahil olmak üzere dış sınıfın tüm üyeleri (veri üyeleri ve yöntemler).
+     2- İç içe (nested) geçmiş sınıflar daha okunabilir ve bakımı kolay kod geliştirmek için kullanılır çünkü sınıfları ve arayüzleri mantıksal olarak yalnızca tek bir yerde gruplandırır.
+     3- Kod Optimizasyonu: Yazmak için daha az kod gerektirir.
 
-Need of Java Inner class
+Java İç (inner) sınıfının kullanım nedenleri:
 
-    Sometimes users need to program a class in such a way so that no other class can access it.
-        Therefore, it would be better if you include it within other classes.
+     Kullanıcıların bir sınıfı başka hiçbir sınıfın erişemeyeceği şekilde programlaması gerektiğinde ana sınıfların içine dahil etmek daha iyi olur.
 
-    If all the class objects are a part of the outer object then
-        it is easier to nest that class inside the outer class.
-        That way all the outer class can access all the objects of the inner class.
+     Kullanılan tüm sınıf nesneleri dış (ana-üst) nesnenin bir parçasıysa o zaman bu sınıfı dış sınıfın içine yerleştirmek kullanım kolaylığı sağlar. Bu şekilde tüm dış sınıf, iç sınıfın tüm nesnelerine erişebilir.
 
 Types of Nested classes
 

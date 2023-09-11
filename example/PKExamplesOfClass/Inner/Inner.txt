@@ -36,21 +36,10 @@ Java İç (inner) sınıfının kullanım nedenleri:
         • Member inner class
         • Anonymous inner class
         • Local inner class
-        • Static Nested Class : A static class is a class that is created inside a class, is called a
-            static nested class in Java. It cannot access non-static data members and methods.
-            It can be accessed by outer class name.
-                                • It can access static data members of the outer class, including private.
-                                • The static nested class cannot access non-static (instance) data members
-            If you have the static member inside the static nested class, you don't need to create
-            an instance of the static nested class.
-        • Nested Interface :
-            • nested interface which is declared within the interface
-            • nested interface which is declared within the class
-            • nested class which is declared within the interface
+        • Statik İç İçe Sınıf (Static Nested Class)
+        • Nested Interface
 
 İç İçe (nested) Sınıf Türleri Açıklamaları:
-
-     Statik olmayan iç içe (nested) sınıf (iç (inner) sınıf )
 
 • Üye iç sınıfı (Member inner class ) : Bir üyenin iç sınıfının nesnesi veya örneği her zaman dış sınıfındaki bir nesnenin içinde bulunur. Üye iç sınıfının nesnesini oluşturmak için biraz farklılık gösteren yazımla new oğeratörü kullanılır. Bu durumda Java derleyicisi Outer$Inner (dış$iç) adında bir sınıf dosyası oluşturur. Üye iç sınıfı dış sınıfının referansına sahiptir, bu nedenle özel sınıf dahil Outer sınıfının tüm veri üyelerine erişebilir.
 
@@ -64,3 +53,15 @@ Java İç (inner) sınıfının kullanım nedenleri:
 
              1) Yerel iç sınıf, yöntemin dışından çağrılamaz.
              2) Yerel iç sınıf, JDK 1.7'ye kadar nihai (non-final) olmayan yerel değişkene erişemez. JDK 1.8'den bu yana, yerel iç sınıfta nihai olmayan yerel değişkene erişebilinmektedir.
+
+• Statik İç İçe Sınıf (Static Nested Class) : Statik sınıf, sınıf içinde oluşturulan bir sınıftır. Statik olmayan veri üyelerine ve yöntemlere erişemez. Dış sınıf adı ile erişilebilir.
+
+                                 • Özel sınıf da dahil olmak üzere dış sınıfın statik veri üyelerine erişebilir.
+                                 • Statik iç içe sınıf, statik olmayan (nesne örneği) veri üyelerine erişemez
+
+             Statik iç içe sınıfın içindeki üyeleri statik ise statik iç içe sınıfın bir örneğini oluşturmanıza gerek yoktur.
+
+• İç İçe Arayüz (Nested Interface) :
+             • arayüz içinde bildirilen iç içe arayüz
+             • sınıf içinde bildirilen iç içe arayüz
+             • arayüzde bildirilen iç içe geçmiş sınıf

@@ -1,0 +1,15 @@
+Difference between method overloading and method overriding in java
+
+No.	Method Overloading
+1)	Method overloading is used to increase the readability of the program.
+2)	Method overloading is performed within class.
+3)	In case of method overloading, parameter must be different.
+4)	Method overloading is the example of compile time polymorphism.
+5)	In java, method overloading can't be performed by changing return type of the method only. Return type can be same or different in method overloading. But you must have to change the parameter.
+
+No.	Method Overriding
+1)	Method overriding is used to provide the specific implementation of the method that is already provided by its super class.
+2)	Method overriding occurs in two classes that have IS-A (inheritance) relationship.
+3)	In case of method overriding, parameter must be same.
+4)	Method overriding is the example of run time polymorphism.
+5)	Return type must be same or covariant in method overriding.

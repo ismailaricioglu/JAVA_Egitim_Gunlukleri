@@ -1,0 +1,56 @@
+        Why use Java interface?
+
+            There are mainly three reasons to use interface. They are given below.
+
+            - It is used to achieve abstraction.
+            - By interface, we can support the functionality of multiple inheritance.
+            - It can be used to achieve loose coupling.
+
+        Compiler:
+
+            .Java                       .Class
+            Interfce NameOfInterfce{	Interfce NameOfInterfce{
+            int aInt = 1;			    public static final int aInt = 1;
+            void print();			    public abstract void print();
+            }				            }
+
+        Interface in Java:
+
+            - Java Interface also represents the IS-A relationship.
+            - It cannot be instantiated just like the abstract class.
+            - Since Java 8, we can have default and static methods in an interface.
+            - Since Java 9, we can have private methods in an interface.
+
+        The relationship between classes and interfaces & Multiple inheritance in Java by interface:
+
+            class 		> extends > 	class // only one
+            class 		> implements > 	interface, interface, ... // unlimitedly
+            interface 	> extends > 	interface, interface, ... // unlimitedly
+
+        NOTE:
+            Question    :   Multiple inheritance is not supported through class in java,
+                            but it is possible by an interface, why?
+            Answer      :   It is because its implementation is provided by the implementation class.
+
+            Question    :   What is marker or tagged interface?
+            Answer      :   An interface which has no member is known as a marker or tagged interface,
+                            for example, Serializable, Cloneable, Remote, etc.
+                            They are used to provide some essential information to the JVM
+                            so that JVM may perform some useful operation.
+
+        Interface inheritance:
+
+            A class implements an interface, but one interface extends another interface.
+
+        It can have a method body:
+
+            Only default method and static function can have. ( Java 8 )
+
+        Nested Interface in Java:
+
+            An interface can have another interface which is known as a nested interface.
+
+
+
+        Interface in Java8:
+        Interface in Java9:

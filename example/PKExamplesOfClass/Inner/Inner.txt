@@ -1,0 +1,67 @@
+Java İç Sınıfları (İç İçe Sınıflar)
+
+     Java iç sınıfı (inner class) veya iç içe geçmiş sınıf (nested class), sınıf veya arayüz içinde bildirilen bir sınıftır.
+
+class Java_Outer_class{
+    //code
+    class Java_Inner_class{
+        //code
+    }
+}
+
+Java iç (inner) sınıflarının avantajı
+
+     1- İç içe (nested) sınıflar belirli bir ilişki türünü temsil eder; yani özel de dahil olmak üzere dış sınıfın tüm üyeleri (veri üyeleri ve yöntemler).
+     2- İç içe (nested) geçmiş sınıflar daha okunabilir ve bakımı kolay kod geliştirmek için kullanılır çünkü sınıfları ve arayüzleri mantıksal olarak yalnızca tek bir yerde gruplandırır.
+     3- Kod Optimizasyonu: Yazmak için daha az kod gerektirir.
+
+Java İç (inner) sınıfının kullanım nedenleri:
+
+     Kullanıcıların bir sınıfı başka hiçbir sınıfın erişemeyeceği şekilde programlaması gerektiğinde ana sınıfların içine dahil etmek daha iyi olur.
+
+     Kullanılan tüm sınıf nesneleri dış (ana-üst) nesnenin bir parçasıysa o zaman bu sınıfı dış sınıfın içine yerleştirmek kullanım kolaylığı sağlar. Bu şekilde tüm dış sınıf, iç sınıfın tüm nesnelerine erişebilir.
+
+İç İçe (nested) Sınıf Türleri
+
+     Statik olmayan ve statik olan iç içe geçmiş sınıflar olmak üzere iki tür iç içe geçmiş sınıf vardır. Statik olmayan iç içe geçmiş sınıflar aynı zamanda iç sınıflar olarak da bilinir.
+
+     Statik olmayan iç içe (nested) sınıf (iç (inner) sınıf )
+
+        • Üye iç sınıfı (Member inner class )
+        • Anonim iç sınıf (Anonymous inner class)
+        • Yerel iç sınıf (Local inner class)
+
+    Static nested class
+
+        • Member inner class
+        • Anonymous inner class
+        • Local inner class
+        • Statik İç İçe Sınıf (Static Nested Class)
+        • Nested Interface
+
+İç İçe (nested) Sınıf Türleri Açıklamaları:
+
+• Üye iç sınıfı (Member inner class ) : Bir üyenin iç sınıfının nesnesi veya örneği her zaman dış sınıfındaki bir nesnenin içinde bulunur. Üye iç sınıfının nesnesini oluşturmak için biraz farklılık gösteren yazımla new oğeratörü kullanılır. Bu durumda Java derleyicisi Outer$Inner (dış$iç) adında bir sınıf dosyası oluşturur. Üye iç sınıfı dış sınıfının referansına sahiptir, bu nedenle özel sınıf dahil Outer sınıfının tüm veri üyelerine erişebilir.
+
+• Anonim iç sınıf (Anonymous inner class) : Java anonim iç sınıfı, adı olmayan ve kendisi için yalnızca tek bir nesnenin oluşturulduğu bir iç sınıftır.
+
+• Yerel iç sınıf (Local inner class) : Bir yöntemin (method) içinde oluşturulan bir sınıftır. Yerel İç Sınıflar, bir blok içerisinde tanımlanır. Genellikle bu blok bir yöntem gövdesidir. Az kullanılsada bu blok bir for döngüsü veya bir if cümlesi olabilir. Yerel İç sınıflar herhangi bir çevreleyen sınıfın üyesi değildir. Yerel iç sınıfların kendileriyle ilişkili herhangi bir erişim değiştiriciye sahip olmaması nedeniyle, içinde tanımlandıkları bloğa aittirler. Ancak nihai (final) veya soyut (abstrcart) olarak işaretlenebilirler. Bu sınıflar, kendilerini çevreleyen sınıfın alanlarına erişebilir.
+
+        Not : Yerel değişkenler özel, genel veya korumalı olamaz.
+
+        Kurallar:
+
+             1) Yerel iç sınıf, yöntemin dışından çağrılamaz.
+             2) Yerel iç sınıf, JDK 1.7'ye kadar nihai (non-final) olmayan yerel değişkene erişemez. JDK 1.8'den bu yana, yerel iç sınıfta nihai olmayan yerel değişkene erişebilinmektedir.
+
+• Statik İç İçe Sınıf (Static Nested Class) : Statik sınıf, sınıf içinde oluşturulan bir sınıftır. Statik olmayan veri üyelerine ve yöntemlere erişemez. Dış sınıf adı ile erişilebilir.
+
+                                 • Özel sınıf da dahil olmak üzere dış sınıfın statik veri üyelerine erişebilir.
+                                 • Statik iç içe sınıf, statik olmayan (nesne örneği) veri üyelerine erişemez
+
+             Statik iç içe sınıfın içindeki üyeleri statik ise statik iç içe sınıfın bir örneğini oluşturmanıza gerek yoktur.
+
+• İç İçe Arayüz (Nested Interface) :
+             • arayüz içinde bildirilen iç içe arayüz
+             • sınıf içinde bildirilen iç içe arayüz
+             • arayüzde bildirilen iç içe geçmiş sınıf

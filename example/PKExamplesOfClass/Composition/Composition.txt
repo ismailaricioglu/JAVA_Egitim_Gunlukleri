@@ -1,0 +1,27 @@
+Anahtar noktaları
+
+• Kompozisyon; ilişkilendirmeyi temsil eder
+• Kompozisyonda her iki nesne birbiriyle ilişkilidir.
+• İki nesne arasındaki Kompozisyon, bir ana nesneyle birleştirilmiş diğer nesne(ler)in ana nesne olmadan var olamayacağı durumlarda oluşturulur.
+Örneğin, üniversite bir bütünü ve fakülteleride parçalarını temsil eder.
+• Kompozisyon işleminde tercihen miras (kalıtım) kullanılarak zayıf bağ elde edilebilir.
+• Bir üniversite silinirse, o üniversiteye karşılık gelen tüm fakülteler silinmelidir.
+
+ÖRNEK: üniversite ve fakülteleri
+
+Sınıflar:
+• College : İsim ve adres değişkenleri içerir
+• Unevrecity : Fakülte listesini kullanmak için referans değişken içerir
+
+Özellikler:
+• Bir üniversitenin birden fazla fakültesi olabilir
+• Dolayısıyla, eğer bir üniversite kalıcı olarak kapatılırsa o üniversitedeki tüm fakülteler kapatılacaktır
+
+Açıklama: Fakülteler üniversite olmadan var olamaz. Üniversite ve fakülteler arasındaki ilişki Kompozisyona bir örnektir.
+
+Kompozisyon kullanmanın faydaları:
+• Kodu yeniden kullanmamızı sağlar.
+• Java'da kompozisyon kavramını kullanarak çoklu Kalıtım kullanılabilir..
+• Sınıfın testinin performansını artırır.
+• Mevcut sınıf uygulamasını daha iyi ve geliştirilmiş bir sürümle kolayca değiştirmemize olanak tanır.
+• Çalışma zamanında (run time) üye nesneleri değiştirerek programın davranışını dinamik olarak değiştirmeye olanak tanır.

@@ -143,6 +143,11 @@ Diğer arkadaşlarınızın kodlarını inceleyiniz. Beğenirseniz yıldızlayı
 Rest nedir?
 Http Anahtar kelimeleri nelerdir? Açıklayınız
 
+Cevap:
+
+Rest & Http Anahtar Kelimeleri
+https://medium.com/@ggl.issoline/rest-nedir-http-anahtar-kelimeleri-nelerdir-441b8bdd6220
+
 </details>
 
 ___

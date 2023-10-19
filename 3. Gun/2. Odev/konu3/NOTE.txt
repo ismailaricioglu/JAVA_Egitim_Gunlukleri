@@ -1,0 +1,40 @@
+Arayüzü kullanmanın başlıca üç nedeni vardır.
+
+	- Soyutlamayı gerçekleştirmek için kullanılır.
+    - Arayüz sayesinde çoklu kalıtımın işlevselliğini destekleyebiliriz.
+    - Gevşek bağlantı elde etmek için kullanılabilir.
+    
+Bir java sınıfı derlenip sınıfa dönüştüğünde;
+
+.Java                       .Class
+Interfce NameOfInterfce{	Interfce NameOfInterfce{
+int aInt = 1;			    public static final int aInt = 1;
+void print();}			    public abstract void print();}
+
+Java'daki arayüz:
+
+	- Java Arayüzü aynı zamanda IS-A ilişkisini de temsil eder.
+    - Soyut sınıf gibi örneklenemez.
+    - Java 8'den beri bir arayüzde varsayılan ve statik yöntemlere sahip olabiliyoruz.
+    - Java 9'dan beri bir arayüzde özel yöntemlere sahip olabiliyoruz.
+    
+Sınıflar ve arayüzler arasındaki ilişki ve Java'da arayüze göre çoklu kalıtım:
+
+	sınıf 	> extend (genişler)		> sınıf 				// sadece bir defa
+    sınıf 	> implement (uygular)	> arayüz, arayüz, ... 	// sınırsızca
+    arayüz 	> extend (genişler)		> arayüz, arayüz, ... 	// sınırsızca
+    
+Soru	: Java'da sınıf yoluyla çoklu kalıtım desteklenmiyor, ama bir arayüzle mümkün, neden?
+Cevap 	: Çünkü uygulanması uygulama sınıfı tarafından sağlanmaktadır.
+
+Soru	: İşaretçi veya etiketli arayüz nedir?
+Cevap	: Hiçbir üyesi olmayan arayüze işaretleyici veya etiketli arayüz denir.
+			Örneğin, Serileştirilebilir, Klonlanabilir, Uzaktan vb.
+            JVM'ye bazı önemli bilgileri sağlamak için kullanılırlar.
+            Böylece JVM bazı yararlı işlemler gerçekleştirebilir.
+            
+Java'da İç İçe Arayüz (nested interface):
+
+	- Bir arayüz, iç içe arayüz olarak bilinen başka bir arayüze sahip olabilir.
+    
+    

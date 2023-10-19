@@ -14,8 +14,7 @@ public class ExamplesOfStringAndMethods {
 		MinValue();
 
 		StringMethods(); // içerikler kontrol edilip düzenlenmeli
-		StringByFormatMethods(); // içerikler kontrol edilip düzenlenmeli, belirli
-		// başlıklar altında toplanıp eksikler giderilmeli
+		StringByFormatMethods(); 
 
 	}
 
@@ -144,12 +143,6 @@ public class ExamplesOfStringAndMethods {
 		Ekran.Add("trim()", "String", aString.trim() + "", "baştan ve sondan tüm boşlukları kaldırır");
 		aString += String.valueOf(1000 + 1);
 		Ekran.Add("valueOf()", "String", aString.toString() + "", "değeri String tipine çevirir");
-
-		// format()","String
-		// * * * ayrıca bakalım Formatter
-//				Formatter formatter = new Formatter();
-//				formatter.format("%30s -> %10s\n", aString1, aString2);
-//				System.out.println(aString.format());
 
 		Ekran.PrintOfValue();
 		Ekran.Clear();

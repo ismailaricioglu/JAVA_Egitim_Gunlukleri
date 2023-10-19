@@ -1,0 +1,68 @@
+Java'da Kalıtım
+
+	Java'da Kalıtım, bir nesnenin bir ana nesnenin tüm özelliklerini ve davranışlarını edindiği 
+	bir mekanizmadır. OOP'lerin (Nesneye Yönelik Programlama Sistemi) önemli bir parçasıdır.
+
+	Java'da kalıtımın ardındaki fikir , mevcut sınıfların üzerine inşa edilen yeni sınıflar 
+	oluşturabilmenizdir . Mevcut bir sınıftan miras aldığınızda üst sınıfın yöntemlerini ve 
+	alanlarını yeniden kullanabilirsiniz. Üstelik mevcut sınıfınıza yeni yöntemler ve alanlar da 
+	ekleyebilirsiniz.
+
+	Kalıtım, ebeveyn-çocuk ilişkisi olarak da bilinen IS-A ilişkisini temsil eder.
+	
+	Neden Java'da miras kullanılmalı?
+	
+	- Yöntem Geçersiz Kılma için (böylece çalışma zamanı polimorfizmi elde edilebilir).
+	- Kodun Yeniden Kullanılabilirliği için.
+	
+	Mirasta Kullanılan Terimler
+	
+	• Class - Sınıf: Sınıf, ortak özelliklere sahip nesnelerin oluşturduğu bir gruptur. 
+	Nesnelerin oluşturulduğu bir şablon veya plandır.
+	
+	• Sub Class/Child Class: - Alt Sınıf/Çocuk Sınıf: Alt sınıf, diğer sınıfı miras alan sınıftır. 
+	Aynı zamanda türetilmiş sınıf, genişletilmiş sınıf veya alt sınıf olarak da adlandırılır.
+	
+	• Super Class/Parent Class - Süper Sınıf/Ebeveyn Sınıfı: Süper sınıf, bir alt sınıfın özellikleri 
+	devraldığı sınıftır. Aynı zamanda temel sınıf veya ana sınıf olarak da adlandırılır.
+	
+	• Reusability - Yeniden Kullanılabilirlik: Adından da anlaşılacağı gibi yeniden kullanılabilirlik, 
+	yeni bir sınıf oluşturduğunuzda mevcut sınıfın alanlarını ve yöntemlerini yeniden kullanmanızı 
+	kolaylaştıran bir mekanizmadır. Önceki sınıfta tanımlanmış olan aynı alanları ve yöntemleri 
+	kullanabilirsiniz.
+	
+	Java'da miras türleri : Java'da sınıf temelinde üç tür kalıtım olabilir: 
+	
+	• Single - tek				: Bir sınıfın başka bir sınıfı miras almasına tek miras denir
+	• Multilevel - çok düzeyli	: Bir miras zinciri olduğunda buna çok düzeyli miras denir
+	• Hierarchical - hiyerarşik	: İki veya daha fazla sınıfın tek bir sınıfı miras almasına hiyerarşik miras denir
+
+	NOT : 	Java'da sınıf aracılığıyla çoklu kalıtım (Multiple inheritance) desteklenmez.
+			Java programlamada çoklu ve hibrit kalıtım yalnızca arayüz aracılığıyla desteklenir.
+
+	Desteklenmeyen miras türleri;
+	
+	• Multiple - çoklu 
+	• Hybrid - hibrit 
+	
+	Java'da neden çoklu kalıtım desteklenmiyor?
+
+		Karmaşıklığı azaltmak ve dili basitleştirmek için Java'da çoklu kalıtım desteklenmez.
+
+		A, B ve C'nin üç sınıf olduğu bir senaryoyu düşünün. C sınıfı A ve B sınıflarını miras alır. 
+		A ve B sınıfları aynı yönteme sahipse ve onu alt sınıf nesnesinden çağırıyorsanız, 
+		A veya B sınıfının yöntemini çağırma konusunda belirsizlik olacaktır.
+
+		Derleme zamanı hataları çalışma zamanı hatalarından daha iyi olduğundan, 2 sınıfı devralırsanız 
+		Java derleme zamanı hatası oluşturur. Yani aynı yönteminiz olsun veya olmasın, derleme zamanı 
+		hatası olacaktır.
+	
+	Anahtar kelimeler ve işlevleri	
+	
+	final - nihai		: Javada kalıtımsız (soysuz) sınıf final anahtar kelimesi ile belirtilir.
+	
+	sealed - mühürlü	: Genel kalıtıma kapalı, özel kalıtıma açık kullanımlar için mühürleme belirtecidir
+	
+	permits - özel izin	: sealed anahtar kelimesinin kullanıldığı esnada hangi sınıfların kulanım 
+							iznine sahip oldukları bilgisi verililir. Miras alan sınıflar final ile nihai 
+							oldukları belirtilmelidir

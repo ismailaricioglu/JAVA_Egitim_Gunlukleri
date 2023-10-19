@@ -13,7 +13,7 @@ public class ExamplesOfStringAndMethods {
 		MaxValue();
 		MinValue();
 
-		StringMethods(); // içerikler kontrol edilip düzenlenmeli
+		StringMethods();
 		StringByFormatMethods(); 
 
 	}

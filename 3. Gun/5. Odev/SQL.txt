@@ -1,0 +1,189 @@
+Data Base Systems;
+
+• RDNMS (Relational Data Base Management System - İlişkisel Veri Tabanı Yönetim Sistemi)
+	
+	Günümüzde en çok kullanılan veri tabanı sistemi, katı ilişkisellik içerir
+
+	Örnek Platformlar;
+	- Oracle
+	- SqlServer (MsSql)
+	- MySql
+	- Postgresql
+	- Access
+	
+	SQL Standardı : 
+		- Genel standart : ANSI SQL
+		- Özel standart : 
+			Oracle için PLSql
+			SqlServer için T-Sql
+
+
+• NoSQL (Not Only SQL - Sadece SQL Değil)
+
+	Tamamlayıcı sistemler, katı ilişkisellik içermez, loglama alt yapılarında kullanılabilir.
+
+	Örnek Platformlar;
+	- Firebase
+	- MongoDb
+
+RDNMS ve NoSQL çoğunlula birbirlerinin tamamlayıcı ve bazen de alternatifi olarak kullanılırlar.
+
+Normalization - Normalleştirme : 
+	
+	Tabo oluşturmada tasarım ve modelleme tekniği. Genel olarak veriyi doğru modelleme ve veri kaçağını önleme işlemidir.
+
+	ÖNEMLİ : Sınır Nedir?
+
+		Ortalama seviyesi 3-3,5 tir. Gerçek normalleştirilmiş bir tabloda kullanılan kolon sayısı 2 dir. Bu durum gerçek hayatta uygulamak mümkün değildir ve yönetilebilirlikten çıkmış tasarım yani Overdesign - Aşırıtasarım noktasına varılmış olur. 
+
+		Bu noktaya girmemek ya da çıkmak için ilgili durumu kontrol edilebilir hale getirildiği anda normalleştirmeyi bırakmak ile mümkün olur. Örneğin SOLID ilkelerinin aşırı kullanımı kendi başına bir sorun oluşturur. Her Sınıfın sadece bir metot kullanması gerçek hayatta mümkün değildir. Genel hatları, temel ve yan görevler olarak ikiye ayrılmış bir kalıtım sınıf yapısı kullanmak daha akılcıl ve dengesini bulmuş performansla durumun kontrol edilebirliği (handle) sağlanabilir. Sınır budur.
+
+KEYS - ANAHTARLAR
+
+	Sütun ve/veya sütunları özelleştirme teknikleridir. Key tipleri;
+		- Primary Key : Bir tabloda bir adet olur. Tekrarsız veri saklar. Genelde ID için yapılır.
+		- Foreign Keys: Yabancı anahtar. Başka bir tablonun PK' sı ile eşleme için kullanılmakta.
+		- Unique Key: Biricik veri. Yani bir yada birden fazla sütunların o tabloda içerdiği verinin benzersiz olacağının belirtilmesi.
+
+VERİ TABANI örnek veri tabanı içeriği;
+
+	[Verit Tabanı] OrnekVeriTabani
+		[Tablo]
+		- TabloBir
+			[Kolon]
+			- Id
+			- NameBir
+		- TabloIki
+			[Kolon]
+			- Id
+			- tablobirId
+			- NameIki
+		- TabloUc
+			[Kolon]
+			- Id
+			- tabloIkiId
+			- NameUc
+
+KOMUTLAR
+
+	-- ANSI STANDARDI
+	-- CASE INSENSITIVE : Büyük küçük duyarsız
+	
+	-- SELECT seçerek listeleme
+
+		-- (listele) Belirli analnları listele
+		select * from [TabloBir]
+		select id, namebir from [TabloBir]
+		select id, namebir ADI from [TabloBir] -- ilgili sütun için takma isim (ADI) verilerek
+
+	-- WHERE koşullu listeleme
+	
+		-- (filtrele) Belirli koşullara uygun olanları listele
+		select * from [TabloBir] where id=1
+		select * from [TabloBir] where namebir='aranacak metinsel veri'
+		select * from [TabloBir] where id = 1 or id = 2
+		select * from [TabloBir] where id = 1 and id = 2
+		select * from [TabloBir] where id = 1 and id >= 10
+
+	-- ASC-DESC sıralı listeleme
+	
+		-- (sırala) Belirli alanlara göre sıralı listele
+		select * from [TabloIki] order by nameiki -- (artalan) varsayılan olarak küçükten büyüğe doğru
+		select * from [TabloIki] order by nameiki asc -- (artalan) küçükten büyüğe doğru
+		select * from [TabloIki] order by nameiki desc -- (azalan) büyükten küçüğe doğru
+
+		-- (filtrele & sırala)
+		select * from [TabloIki] where tablobirid = 1 order by nameiki -- (artalan) varsayılan olarak küçükten büyüğe doğru
+		select * from [TabloIki] where tablobirid = 1 order by nameiki asc -- (artalan) küçükten büyüğe doğru
+		select * from [TabloIki] where tablobirid = 1 order by nameiki desc -- (azalan) büyükten küçüğe doğru
+
+	-- COUNT(*) adet bulma
+	
+		-- (say) Toplam satır sayısı getir
+		select count(*) from [Tablobir] -- tüm satır sayısını döner
+
+		-- (filtrele & say)
+		select count(*) from [Tablobir] where tablobirid = 1 -- ilgili koşulu sağlayan tüm satır sayısını döner
+		select count(*) ADET from [Tablobir] where tablobirid = 1 -- ilgili koşulu sağlayan tüm satır sayısını döner
+
+	-- GROUP BY grup listeleme
+	
+		-- (grupla)
+		select tablobirid from [Tablobir] group by tablobirid
+
+		-- (grupla & say)
+		select tablobirid, count(*) from [Tablobir] group by tablobirid
+		select nameiki, tablobirid, count(*) from [Tablobir] group by nameiki, tablobirid
+
+	-- HAVING grup filitreyerek listeleme
+	
+		-- (grupla & say & filtrele)
+		-- having ile kümülatiflere filtre uygulanır
+		-- Kümülatifler; count-adet, sum-toplam, avg-ortalama gibi
+		-- where veriye filtre uygulanır
+		select tablobirid, count(*) from [Tablobir] group by tablobirid having count(*) < 10 -- sayıyı filtreleyerek
+		select tablobirid, count(*) from [Tablobir] where tablobirid > 1 group by tablobirid -- veriyi filtreleyerek
+		select tablobirid, count(*) from [Tablobir] where tablobirid > 1 group by tablobirid having count(*) < 10 -- sayı ve veriyi filtreleyerek
+
+	-- JOIN birleştirerek listeleme
+
+		-- inner join
+			-- (eşleşen verileri birleştirme)
+			select * 
+			from [tabloiki] 
+			inner join [tablobir] 
+			on tabloiki.tablobirid = tablobir.id
+
+			select namebir, nameiki 
+			from [tabloiki] 
+			inner join [tablobir] 
+			on tabloiki.tablobirid = tablobir.id
+
+			select tabloiki.tablobirid, tablobir.namebir, tabloiki.nameiki 
+			from [tabloiki] 
+			inner join [tablobir] 
+			on tabloiki.tablobirid = tablobir.id
+
+			-- ikiden fazla tablo birleştirme
+			select * 
+			from [tabloiki] 
+			inner join [tablobir] 
+			on tabloiki.tablobirid = tablobir.id
+			inner join [tablouc] 
+			on tablouc.tabloikiid = tabloiki.id
+
+			-- (filtrele & birleştirme)
+			select tabloiki.tablobirid, tablobir.namebir, tabloiki.nameiki 
+			from [tabloiki] 
+			inner join [tablobir] 
+			on tabloiki.tablobirid = tablobir.id
+			where tabloiki.tablobirid < 10
+
+		-- left join
+			-- solada olan tablonun tüm verilerini getir
+			-- (eşleşen ve eşleşmeyen verileri birleştirme)
+			-- soldaki şarta uygun tüm verileri listele
+			select * 
+			from [tablobir] bir 
+			left join [tabloiki] iki
+			on bir.id = iki.tablobirid
+
+		-- right join
+			-- sağda olan tablonun tüm verilerini getir
+			-- (eşleşen ve eşleşmeyen verileri birleştirme)
+			-- sağdaki şarta uygun tüm verileri listele
+			select * 
+			from [tablobir] bir 
+			right join [tabloiki] iki
+			on bir.id = iki.tablobirid
+
+	-- IS NULL birleştirilen tabloda olmayan verileri listeleme
+		-- (eşleşmeyen verileri birleştirme)
+		-- soldaki tüm verileri filtreler; sağdaki tabloda şarta uygun olan ve tabloda olmayan verileri listeler
+		select * 
+		from [tablobir] bir 
+		left join [tabloiki] iki
+		on bir.id = iki.tablobirid
+		where iki.tablobirid is null
+
+DTO Data Transformation Object - Veri Transfer Nesnesi

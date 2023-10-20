@@ -78,10 +78,20 @@ ___
   https://www.youtube.com/watch?v=H3QOQRh8cgk&list=PLqG356ExoxZWfcrBP53Njxir4a-OgqRki&index=2
 Bu videoyu baştan sona izleyip uygulayınız. Olayın netleşmesine destek olacak.
 
+<p>
+<b>Cevap :</b><br>
+       İzlendi ve uygulandı<br>
+</p>
+
   #### • Ödev II Kod içerikli anlatımlar
 
   https://www.youtube.com/watch?v=uucRtKBo6Yg&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8
 Bu oynatma listesini 33. dersten itibaren sonuna kadar tekrar izleyip uygulayınız.
+
+<p>
+<b>Cevap :</b><br>
+       33. dersten itibaren sonuna kadar tüm derslerin uygulaması için <a href="https://github.com/ismailaricioglu/JAVA_Egitim_Gunlukleri/tree/master/3.%20Gun/2.%20Odev">tıklayınız</a><br>
+</p>
 
   #### • Ödev III Kod içerikli anlatımlar
 
@@ -92,9 +102,12 @@ Aşağıdaki isterleri gerçekleştiriniz.
 Kurs ismi tekrar edemez
 Kategori ismi tekrar edemez
 Bir kursun fiyatı 0 dan küçük olamaz
-Kodlarınızı github'a aktarınız
-Diğer arkadaşlarınızın kodlarını inceleyip beğenirseniz yıldızlayınız.
-Not: Aldığınız yıldızlar github sayfa kaliteniz için sektörde çok belirleyicidir.
+Kodlarınızı github'a aktarınız.
+
+<p>
+<b>Cevap :</b><br>
+       İlgili proje için <a href="https://github.com/ismailaricioglu/JAVA_Egitim_Gunlukleri/tree/master/Projeler/Java-Bootcamp/kodlama.io">tıklayınız</a><br>
+</p>
 
   #### • Ödev IV Metinli anlatımlar
 
@@ -102,27 +115,35 @@ Not: Aldığınız yıldızlar github sayfa kaliteniz için sektörde çok belir
 Hiç bilmeyen birine Java'da değer ve referans tipleri anlatan bir makale yazınız.
 Hiç bilmeyen birine Java'da interfaceleri anlatan başka bir makale daha yazınız.
 
-Cevap : 
+<p>
+<b>Cevap :</b><br>
+       Java'da değer ve referans tipler için <a href="https://medium.com/@ggl.issoline/javada-de%C4%9Fer-ve-referans-tipler-c9a5e8b2b738">tıklayınız</a><br>
+       <br>
+       Java'da interfaceler için <a href="https://medium.com/@ggl.issoline/javada-interfaceler-614d32a0fcd">tıklayınız</a><br>
+</p>
 
-Java'da değer ve referans tipleri : 
-https://medium.com/@ggl.issoline/javada-de%C4%9Fer-ve-referans-tipler-c9a5e8b2b738
-
-Java'da interfaceleri :
-https://medium.com/@ggl.issoline/javada-interfaceler-614d32a0fcd
 
   #### • Ödev V Kod içerikli anlatımlar - Resimli anlatımlar
 
   Sql bir programcının mutlaka bilmesi gereken bir konudur.
 Aşağıdaki videoyu izleyip uygulayınız.
 https://www.youtube.com/watch?v=r_pbdopB4LU&list=PLqG356ExoxZVN7rC0KmMo0lvECK97VRZg&index=6
-Muhtemelen Visual Studio sizde yok. Hiç uğraşmayıp kodları aşağıdaki editörde yazıp uygulayınız.
-https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all
+
+<p>
+<b>Cevap :</b><br>
+       İzlendi ve uygulama için <a href="https://github.com/ismailaricioglu/JAVA_Egitim_Gunlukleri/tree/master/3.%20Gun/5.%20Odev">tıklayınız</a><br>
+</p>
 
   #### • Ödev VI Metinli anlatımlar - Tablolu anlatımlar
 
   Aşağıdaki oynatma listesi çok önemli.
 İzleyip excel'de siz de uygulayınız.
 https://www.youtube.com/watch?v=4U54EVknm2Q&list=PLqG356ExoxZXZQt9edXkCS-_dunCq-bXm
+
+<p>
+<b>Cevap :</b><br>
+       İzlendi ve uygulama için <a href="https://github.com/ismailaricioglu/JAVA_Egitim_Gunlukleri/tree/master/3.%20Gun/6.%20Odev/Veri%20Taban%C4%B1%20Tasar%C4%B1m%C4%B1">tıklayınız</a><br>
+</p>
 
 </details>
 

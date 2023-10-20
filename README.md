@@ -18,10 +18,9 @@ Java Kamp ödevlerine aşağıdan ulaşabilirsiniz. Eleştiri, öneri ve görü�
   Trendyol sitesine girdiğiniz zaman bu sitede kullanılan şartlı bloklara ve döngülerle yapılmış alanlara örnekler bulunuz.
 Görsellerle işaretleyip belirtiniz.
 
-Cevap :
 <p>
-<b>Şartlı bloklar & döngülerle yapılmış alanlar</b><br>
-       <a href="https://github.com/ismailaricioglu/JAVA_Egitim_Gunlukleri/tree/master/1.%20Gun/1.%20Odev">buradan ulaşılır</a><br>
+<b>Cevap :</b><br>
+       Şartlı bloklar & döngülerle yapılmış alanlar <a href="https://github.com/ismailaricioglu/JAVA_Egitim_Gunlukleri/tree/master/1.%20Gun/1.%20Odev">buradan ulaşılır</a><br>
 </p>
   
   #### • Ödev II Kod içerikli anlatımlar

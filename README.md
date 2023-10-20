@@ -108,8 +108,7 @@ Hiç bilmeyen birine Java'da interfaceleri anlatan başka bir makale daha yazın
 <p>
 <b>Cevap :</b><br>
        Java'da değer ve referans tipler için <a href="https://medium.com/@ggl.issoline/javada-de%C4%9Fer-ve-referans-tipler-c9a5e8b2b738">tıklayınız</a><br>
-       <br>
-       Java'da interfaceler için <a href="https://medium.com/@ggl.issoline/javada-interfaceler-614d32a0fcd">tıklayınız</a><br>
+       Java'da interfaceler için <a href="https://medium.com/@ggl.issoline/javada-interfaceler-614d32a0fcd">tıklayınız</a>
 </p>
 
 

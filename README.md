@@ -1,15 +1,5 @@
-Sıralı işlem basamakları
-* [ Tamalandı ] Tüm ödevleri listeli bir şekilde sun
-* Eleme yap, gerekçesi ile beraber açıkla
-* İlgili ödevleri kategorize et
-  * Resimli anlatımlar
-  * Metinli anlatımlar
-  * Kod içerikli anlatımlar, ayrı bir sayfaya yönlendir
-  * Video kaydı izlemeleri
-* Bitir
-
-# 2022-Yazilim-Gelistirici-Yetistirme-Kampi-JAVA
-Java Kamp ödevlerine aşağıdan ulaşabilirsiniz. Eleştiri, öneri ve görüşlerinizi lütfen belirtiniz. Teşekkürler.
+# 2022-Yazilim-Gelistirici-Yetistirme-Kampi-JAVA-Spring-Boot
+Java Kamp ödevlerine aşağıdan ulaşabilirsiniz. Eleştiri, öneri ve görüşlerinizi lütfen github üzerinden iletiniz. Teşekkürler.
 
  <details><summary>Gün I</summary>
   

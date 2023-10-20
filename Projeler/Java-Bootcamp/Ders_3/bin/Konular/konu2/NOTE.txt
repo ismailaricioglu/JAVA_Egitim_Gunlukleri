@@ -1,0 +1,16 @@
+Java'da soyutlamaya ulaşmanın iki yolu vardır
+     - Abstract (Soyut sınıf) (%0 - 100)
+     - Interface (Arayüz) (%100) *istisna (Java 8 ile Default Method gövdesi doldurulabiliyor)
+
+Hatırlanacak noktalar
+     - Soyut bir sınıf "abstract" anahtar sözcüğü ile bildirilmelidir.
+     - Soyut ve soyut olmayan yöntemlere sahip olabilir.
+     - Örneklenemez (not new).
+     - Yapılandırıcılara ve statik yöntemlere de sahip olabilir.
+     - Alt sınıfı yöntemin gövdesini değiştirmemeye zorlayacak "final" anahtar sözcüklü yöntemlere sahip olabilir.
+
+Kural: 
+	 - Bir sınıfta soyut (abstract) bir yöntem varsa o sınıfın soyut (abstract) olması gerekir.
+	 - Eğer soyut metodu olan soyut bir sınıfı genişletiyorsanız,
+	   ya yöntemin uygulanmasını sağlamalısınız ya da bu sınıfı soyut yapmalısınız.
+	 - 

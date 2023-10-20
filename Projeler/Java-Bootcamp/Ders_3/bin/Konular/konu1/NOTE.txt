@@ -1,0 +1,17 @@
+Java'da yöntem aşırı yükleme ile yöntemi geçersiz kılma arasındaki farklar
+
+Yöntemin (metodun) Aşırı Yüklenmesi
+	1) Programın okunabilirliğini arttırmak için kullanılır.
+	2) Sınıf içinde gerçekleştirilir.
+	3) Parametre farklı olmalıdır.
+	4) Derleme zamanı polimorfizminin örneğidir.
+	5) Java'da, yalnızca yöntemin dönüş türü değiştirilerek gerçekleştirilemez. 
+		Yöntemin aşırı yüklenmesinde dönüş türü aynı veya farklı olabilir. 
+		Ancak parametreyi değiştirmeniz gerekir.
+
+Yöntemin Geçersiz Kılınması
+	1) Halihazırda süper sınıfı tarafından sağlanan yöntemin özel uygulamasını sağlamak için kullanılır.
+	2) IS-A (kalıtım) ilişkisi olan iki sınıfta gerçekleşir.
+	3) Parametre aynı olmalıdır.
+	4) Çalışma zamanı polimorfizminin örneğidir.
+	5) Dönüş türü aynı veya kovaryant (aynı imza ve dönüş türünde) olmalıdır.

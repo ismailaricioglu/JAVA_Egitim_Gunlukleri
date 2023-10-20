@@ -1,0 +1,51 @@
+Association vs. Aggregation vs. Composition
+
+Association	: Zayıf bağlılık
+Aggregation	: Orta bağlılık
+Composition	: Tam bağlılık
+
+Composition - Kompozisyon
+	
+	Kompozisyon “ait olma” türünden bir ilişkidir.Bu, nesnelerden birinin mantıksal olarak daha büyük bir yapı olduğu ve 
+	diğer nesneyi de içerdiği anlamına gelir.Başka bir deyişle, diğer nesnenin parçası veya üyesidir.
+
+	Alternatif olarak, buna sıklıkla "has-a" ilişkisi diyoruz ( kalıtım olan "is-a" ilişkisinin aksine ).
+
+	Örneğin bir oda bir binaya aittir, yani bir binanın bir odası vardır. 
+	Yani temel olarak ona "aittir" mi yoksa "sahiptir" mi dememiz yalnızca bir bakış açısı meselesidir.
+
+	Kompozisyon güçlü bir tür "has-a" ilişkisidir çünkü onu kapsayan nesne ona sahiptir. 
+	Bu nedenle nesnelerin yaşam döngüleri birbirine bağlıdır. 
+	Bu, eğer sahibin nesnesini yok edersek, onun üyelerinin de onunla birlikte yok edileceği anlamına gelir. 
+	Mesela binayla birlikte oda da yıkılıyor.
+
+	Bunun, içeren nesnenin herhangi bir parçası olmadan var olamayacağı anlamına gelmediğini unutmayın. 
+	Mesela bir binanın içindeki tüm duvarları yıkıp odaları yok edebiliriz. Ancak bina varlığını sürdürecektir.
+
+	Önem açısından, içeren bir nesne istediğimiz kadar parçaya sahip olabilir. 
+	Ancak tüm parçaların tam olarak tek bir konteynere sahip olması gerekir .
+	
+Aggregation - Toplama
+
+	Toplama aynı zamanda bir “has-a” ilişkisidir. Onu kompozisyondan ayıran şey, sahip olmayı gerektirmemesidir. 
+	Sonuç olarak nesnelerin yaşam döngüleri birbirine bağlı değildir: her biri birbirinden bağımsız olarak var olabilir.
+
+	Örneğin bir araba ve tekerlekleri. Tekerlekleri çıkardığımızda tüm parçalar hala mevcut birer nesnedir. 
+	Başka tekerlekleri arabaya monte edebiliriz veya bunları başka bir arabaya takabiliriz.
+
+	Elbette tekerlekleri olmayan veya tekerlekleri sökülmüş bir araba, tekerlekleri takılı bir araba kadar 
+	kullanışlı olmayacaktır. Fakat bu ilişkinin kullanım nedeni : Parçaları, parçalarından daha fazlasını 
+	gerçekleştirebilecek daha büyük bir yapıda birleştirmek, toplamaktır.
+
+	Toplama, sahip olmayı gerektirmediği için bir üyenin yalnızca bir kapsayıcıya bağlı olması gerekmez. 
+	Örneğin bir üçgen parçalardan oluşur. Ancak üçgenlerin kenarları parçaları olarak ayrışabilirler.
+	
+Association - Birliktelik 
+
+	Birliktelik bu üçü arasındaki en zayıf ilişkidir. Bu bir “has-a” ilişkisi değildir , 
+	nesnelerin hiçbiri bir diğerinin parçası ya da üyesi değildir.
+
+	Birliktelik yalnızca nesnelerin birbirini "tanıması-bilmesi" anlamına gelir. Örneğin bir anne ve çocuğu.
+	
+NOT: "Sahiptir", "aittir", "üyesi", "parçası" vb. terimlere güvenirsek, nesnelerimiz arasındaki ilişkileri 
+	daha kolay tanımlayabileceğimizi unutmayın.

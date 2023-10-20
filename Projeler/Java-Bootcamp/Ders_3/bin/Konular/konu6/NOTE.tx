@@ -1,0 +1,11 @@
+Dependency Injection - Bağımlılık Enjekte Etme
+
+	Bağımlılığı yönetme teknikleridir. Manüel olarak;
+	
+		- Contructor Dependency Injection,
+		- Setter Dependency Injection
+		
+	yöntemlerinin yanı sıra, bazı frameworkler bunu otomatik yapar.
+	Spring buna bir örnektir. 
+	Dependency Injection yani bağımlılık enjeksiyonu, 
+	SOLID prensipleri uygulamalarında oldukça önemli bir yer kaplar.

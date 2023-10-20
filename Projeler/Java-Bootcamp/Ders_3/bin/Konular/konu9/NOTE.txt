@@ -1,0 +1,66 @@
+Statics - Statikler
+
+    Java'daki statik anahtar kelime esas olarak bellek yönetimi için kullanılır.
+    Statik anahtar kelime, sınıfın bir örneğinden ziyade sınıfa aittir.
+
+
+Statik şunlar olabilir:
+
+    1 Variable		: Değişken (sınıf değişkeni olarak da bilinir)
+    2 Method		: Yöntem (sınıf yöntemi olarak da bilinir)
+    3 Block			: İlk çalışacak isimsiz ve parametresiz yöntem
+    4 Nested Class	: İç içe geçmiş sınıf ve yöntemlerde üyelere erişim
+
+1) Java statik değişkeni
+
+    Herhangi bir değişkeni statik olarak bildirirseniz, bu değişken statik değişken olarak bilinir.
+
+    • Statik değişken, tüm nesnelerin (her nesne için benzersiz olmayan) ortak özellikleri için 
+    kullanılabilir; örneğin çalışanların "şirket adı", öğrencilerin "üniversite adı" vb.
+    • Statik değişken, sınıf yükleme sırasında sınıf alanında yalnızca bir defa belleğe alınır.
+
+	Statik değişkenin avantajları:
+
+    • Program hafızanızı verimli hale getirir (yani hafızadan tasarruf sağlar).
+
+	NOT : Java statik özelliği tüm nesnelerle paylaşılır.
+
+2) Java statik yöntemi
+
+    Statik anahtar kelimeyi herhangi bir yöntemle uygularsanız buna statik yöntem denir.
+
+	Statik bir yöntem;
+
+    • bir sınıfın nesnesinden ziyade sınıfa aittir.
+    • bir sınıfın örneğini oluşturmaya gerek kalmadan çağrılabilir. (sinifAdi.statikMetotAdi)
+    • statik veri üyesine erişebilir ve değerini değiştirebilir.
+
+	Soru	: Java ana yöntemi neden statiktir?
+
+	Cevap	: Bunun nedeni, nesnenin statik bir yöntem çağırmasına gerek olmamasıdır.
+    		  Statik olmayan bir yöntem olsaydı, JVM önce bir nesne oluşturur,
+    	  	  ardından ekstra bellek ayırma sorununa yol açacak main() yöntemini çağırır.
+
+3) Java statik bloğu
+
+    • Statik veri üyesini başlatmak için kullanılır.
+    • Sınıf yükleme sırasında ana yöntemden önce yürütülür.
+    
+4) Java statik iç içe sınıfı
+
+	Sınıf yöntemlerinde ve değişkenlerinde olduğu gibi, statik iç içe geçmiş bir sınıf, 
+	dış sınıfıyla ilişkilendirilir. Statik sınıf yöntemleri gibi, statik iç içe geçmiş bir sınıf da
+	kendisini kapsayan sınıfta tanımlanan örnek değişkenlere veya yöntemlere doğrudan başvuramaz.
+	Bunları yalnızca bir nesne referansı aracılığıyla kullanabilir.
+
+	NOT	:	Statik iç içe geçmiş bir sınıf, dış sınıfının (ve diğer sınıfların) örnek üyeleriyle tıpkı 
+			diğer üst düzey sınıflar gibi etkileşime girer. 
+			
+			Aslında, statik iç içe geçmiş bir sınıf, davranışsal olarak paketleme kolaylığı için 
+			başka bir üst düzey sınıfa yerleştirilmiş üst düzey bir sınıftır. 
+			
+			İç Sınıf ve İç İçe Statik Sınıf Örneği de bunu göstermektedir. Statik iç içe geçmiş 
+			bir sınıfı, üst düzey bir sınıfla aynı şekilde başlatırsınız:
+
+				StaticNestedClass staticNestedObject = new StaticNestedClass();
+

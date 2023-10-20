@@ -20,7 +20,7 @@ Görsellerle işaretleyip belirtiniz.
 
 <p>
 <b>Cevap :</b><br>
-       Şartlı bloklar & döngülerle yapılmış alanlar <a href="https://github.com/ismailaricioglu/JAVA_Egitim_Gunlukleri/tree/master/1.%20Gun/1.%20Odev">buradan ulaşılır</a><br>
+       Şartlı bloklar & döngülerle yapılmış alanlar için <a href="https://github.com/ismailaricioglu/JAVA_Egitim_Gunlukleri/tree/master/1.%20Gun/1.%20Odev">tıklayınız</a><br>
 </p>
   
   #### • Ödev II Kod içerikli anlatımlar
@@ -31,8 +31,11 @@ Uyguladığınız kodları github'a aktarınız.
 Github'a aktarmak için discorddan destek isteyiniz.
 Tüm kodların uygulanmasını bekliyoruz.
 Github adresinizi yorumlara ekleyiniz.
-Diğer arkadaşlarınızın kodlarını inceleyiniz.
-Beğenirseniz yıldızlayınız.
+
+<p>
+<b>Cevap :</b><br>
+       1-23 arasındaki tüm derslerin uygulaması için <a href="https://github.com/ismailaricioglu/JAVA_Egitim_Gunlukleri/tree/master/1.%20Gun/2.%20Odev">tıklayınız</a><br>
+</p>
 
 </details>
 
@@ -47,14 +50,21 @@ ___
 Sorularınız varsa pair odalarında size destek olması için canlı-ders kanalından destek isteyiniz.
 Sorularınız yoksa, sorusu olanlara destek veriniz.
 
+<p>
+<b>Cevap :</b><br>
+       Geçmiş tarihli canlı video kayıttan izlendi <br>
+</p>
+
   #### • Ödev II Kod içerikli anlatımlar
 
 https://www.youtube.com/watch?v=uucRtKBo6Yg&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8
 Bu oynatma listesindeki videoları 24-37 aralığında izleyip uygulayınız.
-Kodlarınızı github'a aktarınız
-Diğer arkadaşlarınızın kodlarını inceleyiniz. Beğenirseniz yıldız veriniz.
-Önemli : Bu oynatma listesinde bilmediğiniz konular yoğun olabilir. Bu sizi yeni derslere hazırlayacaktır.
-Unutmayın. Zorlanmadan gelişemezsin
+Kodlarınızı github'a aktarınız.
+
+<p>
+<b>Cevap :</b><br>
+       24-37 arasındaki tüm derslerin uygulaması için <a href="https://github.com/ismailaricioglu/JAVA_Egitim_Gunlukleri/tree/master/2.%20Gun/2.%20Odev">tıklayınız</a><br>
+</p>
 
 </details>
 

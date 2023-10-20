@@ -1,0 +1,30 @@
+Java'da çok biçimlilik
+
+Java'daki polimorfizm, tek bir eylemi farklı şekillerde gerçekleştirebileceğimiz bir kavramdır.
+
+Java'da iki tür polimorfizm vardır: 
+	derleme zamanı polimorfizmi	: statik bir yöntemi aşırı yüklenmesi yoluyla
+	çalışma zamanı polimorfizmi	: yöntemin geçersiz kılınması yoluyla
+
+	Java'da Çalışma Zamanı Polimorfizmi veya Dinamik Yöntem Gönderimi, 
+	Geçersiz kılınan bir yönteme yapılan çağrının derleme zamanı yerine 
+	çalışma zamanında çözümlendiği bir süreçtir.
+
+	Bu süreçte geçersiz kılınan yöntem, bir üst sınıfın referans değişkeni aracılığıyla çağrılır.
+	Çağrılacak yöntemin belirlenmesi, referans değişkeni tarafından atıfta bulunulan nesneye bağlıdır.
+	
+Upcasting - Yukarıya Yayınlama
+
+	Base sınıfının veya arayüzün referans değişkeni Extend sınıfının nesnesine atıfta bulunuyorsa, 
+	buna upcasting adı verilir.
+	
+	interface I{}  
+	class A{}  
+	class B extends A implements I{}
+	
+	B IS-A A
+	B IS-A I
+	B IS-A Object - Nesnesi
+	
+	
+	

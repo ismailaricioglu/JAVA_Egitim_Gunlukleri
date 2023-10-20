@@ -1,0 +1,65 @@
+Inner Class - İç Sınıf
+
+	Java'da iç sınıf, esas olarak tanıtılan sınıf veya arayüz içinde bildirilen sınıfı ifade eder; 
+	özetlemek gerekirse, Java ile aynı mantıksal olarak ilişkilendirilebilir sınıflar 
+	tamamen nesne yönelimlidir ve bu nedenle onu gerçek dünyaya yaklaştırır. 
+	
+	Java İç (inner) sınıfının kullanım nedenleri:
+
+    - Kullanıcıların bir sınıfı başka hiçbir sınıfın erişemeyeceği şekilde programlaması gerektiğinde 
+      ana sınıfların içine dahil etmek daha iyi olur.
+
+    - Kullanılan tüm sınıf nesneleri dış (ana-üst) nesnenin bir parçasıysa o zaman bu sınıfı 
+      dış sınıfın içine yerleştirmek kullanım kolaylığı sağlar. Bu şekilde tüm dış sınıf, 
+      iç sınıfın tüm nesnelerine erişebilir. 
+
+	İç sınıfların avantajları:
+
+	- Kodu temiz ve okunabilir hale getirmek.
+	- Dış sınıfın özel yöntemlerine erişilebilir, böylece yeni bir boyut getirilip gerçek dünyaya 
+		daha yakın hale gelir.
+	- Kod modülünü optimize etme.
+
+	Java'da temel olarak dört tür iç sınıf vardır.
+
+	- Nested Inner Class - İç İçe İç Sınıf
+	- Method Local Inner Classes - Yöntem Yerel İç Sınıflar
+	- Static Nested Classes - Statik İç İçe Sınıflar
+	- Anonymous Inner Classes - Anonim İç Sınıflar
+	
+	_Nested Class - İç İçe Sınıf
+	
+	Dış sınıfın herhangi bir özel örnek değişkenine erişebilir. 
+	Diğer herhangi bir örnek değişken gibi, erişim değiştiricimiz de özel, korumalı, genel ve 
+	varsayılan değiştiriciye sahip olabiliriz. Sınıf gibi, bir arayüz de iç içe yerleştirilebilir 
+	ve erişim belirticilerine sahip olabilir. 
+	
+	Not:  İç içe geçmiş bir iç sınıfta statik bir yönteme sahip olamayız çünkü iç sınıf, 
+	dış sınıfındaki bir nesneyle örtülü olarak ilişkilendirilir ve dolayısıyla kendisi için 
+	herhangi bir statik yöntem tanımlayamaz.  
+	Ancak JAVA Sürüm 16'dan bu yana iç sınıfımızda da statik üyelere sahip olabiliyoruz.
+	
+	_Method Local Inner Classes - Yöntem Yerel İç Sınıflar 
+
+	dış sınıfın yöntemi içinde bildirilebilir
+
+	Not: Yerel iç sınıf, JDK 1.7'ye kadar nihai olmayan yerel değişkene erişemez. 
+	JDK 1.8'den beri, nihai olmayan yerel değişkene yöntem yerel iç sınıfından erişmek mümkündür.
+	
+	Yerel bir değişkeni final olarak bildirmemizin ana nedeni, yerel değişkenin, yöntem yığında olana 
+	kadar yığında kalmasıdır, ancak iç sınıfın nesnesinin hala yığında yaşadığı bir durum olabilir.
+	Yöntem yerel iç sınıfı özel, korumalı, statik ve geçici olarak işaretlenemez ancak soyut ve nihai 
+	olarak işaretlenebilir, ancak aynı anda ikisi birden işaretlenemez.
+	
+	_Static Nested Classes - Statik İç İçe Sınıflar
+	
+	Statik iç içe geçmiş sınıflar teknik olarak iç sınıflar değildir. Dış sınıfın statik bir üyesi gibidirler. 
+	
+	_Anonymous Inner Classes - Anonim İç Sınıflar
+	
+	Anonim iç sınıflar hiçbir isim olmadan bildirilir. İki şekilde yaratılırlar. 
+
+	- Belirtilen türün bir alt sınıfı olarak
+	- Belirtilen arayüzün uygulayıcısı olarak
+	
+	

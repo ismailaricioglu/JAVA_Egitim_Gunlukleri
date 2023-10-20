@@ -161,21 +161,23 @@ Req 1 : Sistemde programlama dilleri tutulmalıdır.
 Programlama dillerini(C#,Java,Python) ekleyebilecek, silebilecek, güncelleyebilecek, listeleyebilecek, id ile getirebilecek kodları yazınız. Bunu tamamen in memory yapınız.
 İsimler tekrar edemez.
 Programlama dili boş geçilemez. (Validation kullanmadan, kod yazarak algoritmik çözünüz)
-Önemli : Asla copy paste yapmayınız. Projeyi sıfırdan oluşturacağınız için vakit alacaktır ama konuyu pekiştirmenizi sağlar.
-Kodlarınızı github'a aktarıp yorumlara github adresinizi yazınız.
-Diğer arkadaşlarınızın kodlarını inceleyiniz. Beğenirseniz yıldızlayınız.
+
+<p>
+<b>Cevap :</b><br>
+       İlgili proje için <a href="https://github.com/ismailaricioglu/JAVA_Egitim_Gunlukleri/tree/master/Projeler/Java-Bootcamp/Kodlama.io.Devs">tıklayınız</a><br>
+</p>
 
   #### • Ödev II Metinli anlatımlar - (Gerekir ise) Resimli anlatımlar ve/veya link verme
 
   Aşağıdaki başlıkları içeren araştırma yapıp bir medium yazısı yazınız.
 
 Rest nedir?
-Http Anahtar kelimeleri nelerdir? Açıklayınız
+Http Anahtar Kelimeleri nelerdir? Açıklayınız
 
-Cevap:
-
-Rest & Http Anahtar Kelimeleri
-https://medium.com/@ggl.issoline/rest-nedir-http-anahtar-kelimeleri-nelerdir-441b8bdd6220
+<p>
+<b>Cevap :</b><br>
+       Rest ve Http Anahtar Kelimeleri için <a href="https://medium.com/@ggl.issoline/rest-nedir-http-anahtar-kelimeleri-nelerdir-441b8bdd6220">tıklayınız</a><br>
+</p>
 
 </details>
 
@@ -188,15 +190,22 @@ ___
   Ar-ge : Spring Boot üzerinde JPA-Hibernate için entity ilişkilerini araştırınız. (One-To-One, One-To-Many)
 Bunu bir sonraki ödevinizde uygulayınız.
 
+<p>
+<b>Cevap :</b><br>
+       Uygulandı<br>
+</p>
+
   #### • Ödev II Kod içerikli anlatımlar
 
   Req 2 : Sisteme programlama dillerine ait alt teknolojiler eklenebilmeli, silinebilmeli. güncellenebilmeli, listelenebilmelidir.
 Örneğin; Java : Spring, JSP.
 C#: WPF, ASP.NET ,
 JavaScript : Vue, React
-Önemli : Asla copy paste yapmayınız. Projeyi sıfırdan oluşturacağınız için vakit alacaktır ama konuyu pekiştirmenizi sağlar.
-Kodlarınızı github'a aktarıp yorumlara github adresinizi yazınız.
-Diğer arkadaşlarınızın kodlarını inceleyiniz. Beğenirseniz yıldızlayınız.
+
+<p>
+<b>Cevap :</b><br>
+       İlgili proje için <a href="https://github.com/ismailaricioglu/JAVA_Egitim_Gunlukleri/tree/master/Projeler/Spring-Bootcamp/kodlama.io.devs">tıklayınız</a><br>
+</p>
 
 </details>
 

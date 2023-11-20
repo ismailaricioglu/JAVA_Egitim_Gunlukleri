@@ -29,7 +29,7 @@ public class ExamplesOfIfBlocks {
 		System.out.println("\n_Kullanım 3:");
 		if (aFalse)
 			System.out.println("...");
-		else if (aFalse)
+		else if (aTrue)
 			System.out.println("sonraki koşullu işlem çalıştı");
 
 		// K 4:

@@ -48,7 +48,7 @@ public class ExamplesOfArray {
 	public static void MultiDimensionalArraysAndUsagePatterns() {
 
 		// K 1:
-		System.out.println("\n_Kullanım 1: Tek Boyutlu Dizi Tanımlama");
+		System.out.println("\n_Kullanım 1: Çok Boyutlu Dizi Tanımlama");
 		int[][] aMultiDimensionalArrayInt = new int[2][3];
 		aMultiDimensionalArrayInt[0][0] = 0;
 		aMultiDimensionalArrayInt[0][1] = 1;
@@ -61,14 +61,14 @@ public class ExamplesOfArray {
 				System.out.println("Sayı " + aInt);
 
 		// K 2:
-		System.out.println("\n_Kullanım 2: Tek Boyutlu Dizi Tanımlama");
+		System.out.println("\n_Kullanım 2: Çok Boyutlu Dizi Tanımlama");
 		int[][] aMultiDimensionalArrayInt2 = new int[][] { { 6, 7 }, { 8, 9 } };
 		for (int[] aArrayInt : aMultiDimensionalArrayInt2)
 			for (int aInt : aArrayInt)
 				System.out.println("Sayı " + aInt);
 
 		// K 3:
-		System.out.println("\n_Kullanım 3: Tek Boyutlu Dizi Tanımlama");
+		System.out.println("\n_Kullanım 3: Çok Boyutlu Dizi Tanımlama");
 		int[][] aMultiDimensionalArrayInt3 = { { 10, 11 }, { 12, 13 } };
 		for (int[] aArrayInt : aMultiDimensionalArrayInt3)
 			for (int aInt : aArrayInt)

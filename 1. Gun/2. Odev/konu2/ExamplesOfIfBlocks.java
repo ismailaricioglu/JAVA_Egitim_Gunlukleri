@@ -3,11 +3,9 @@ package Konular.konu2;
 public class ExamplesOfIfBlocks {
 
 	public static void main(String[] args) {
-
 		IfElseAndUsagePatterns();
-
 	}
-
+	
 	static boolean aTrue = true, aFalse = false;
 
 	// Eğer bloğu kullanım kalıpları - İf blok and usage patterns

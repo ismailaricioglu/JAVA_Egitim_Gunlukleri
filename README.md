@@ -2,7 +2,7 @@
 Java Kamp ödevlerine aşağıdan ulaşabilirsiniz. Eleştiri, öneri ve görüşlerinizi lütfen github üzerinden iletiniz. Teşekkürler.
 
 ## Kullanılan teknolojiler
-Java, Eclipse, Spring Framework, Tomcat, PostgreSQL, Maven, Jar, Spring Boot Dev Tools, Lombok, Spring Web, Spring Data JPA, Validation, PostgreSQL Drive, Swagger, Postman, Jakarta, Modelmapper
+Java programlama dili, Java SE 17, Eclipse, Spring Framework, Tomcat, PostgreSQL, Maven, Jar, Spring Boot Dev Tools, Lombok, Spring Web, Spring Data JPA, Validation, PostgreSQL Drive, Swagger, Postman, Jakarta, Modelmapper
 
 ## Özellikler: 
 Java temel dil bilgisi ve uygulaması ile backend geliştirme yöntemlerinde Spring Framework odağında, Spring Boot içeriği kullanımına bir örnektir. Burada temel backend mimarisinin ihtiyaçları, genel işleyişi, gelişim süreçleri projeyi hazırlayan kişiye konu hakkında dein bir bakış açısı ve yetkinlik kazandırmıştır.

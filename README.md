@@ -5,7 +5,7 @@ Java Kamp ödevlerine aşağıdan ulaşabilirsiniz. Eleştiri, öneri ve görü�
 Java programlama dili, Java SE 17, Eclipse, Spring Framework, Tomcat, PostgreSQL, Maven, Jar, Spring Boot Dev Tools, Lombok, Spring Web, Spring Data JPA, Validation, PostgreSQL Drive, Swagger, Postman, Jakarta, Modelmapper
 
 ## Özellikler: 
-Java temel dil bilgisi ve uygulaması ile backend geliştirme yöntemlerinde Spring Framework odağında, Spring Boot içeriği kullanımına bir örnektir. Burada temel backend mimarisinin ihtiyaçları, genel işleyişi, gelişim süreçleri projeyi hazırlayan kişiye konu hakkında derin bir bakış açısı ve yetkinlik kazandırmıştır.
+Engin Demiroğ'un hazırladığı 2022-Yazilim-Gelistirici-Yetistirme-Kampi-JAVA-Spring-Boot eğitim içerikleri ve ödevleri yanısıra, Java temel dil bilgisi ve uygulaması ile backend geliştirme yöntemlerinde Spring Framework odağında, Spring Boot içeriği kullanımına bir örnektir. Burada temel backend mimarisinin ihtiyaçları, genel işleyişi, gelişim süreçleri projeyi hazırlayan kişiye konu hakkında derin bir bakış açısı ve yetkinlik kazandırmıştır.
 
  <details><summary>Gün I</summary>
   

@@ -1,5 +1,5 @@
 # 2022-Yazilim-Gelistirici-Yetistirme-Kampi-JAVA-Spring-Boot
-Java Kamp ödevlerine aşağıdan ulaşabilirsiniz. Eleştiri, öneri ve görüşlerinizi lütfen github üzerinden iletiniz. Teşekkürler.
+Java Kamp ödevlerine aşağıdan ulaşabilirsiniz. Eleştiri, öneri ve görüşlerinizi lütfen github üzerinden veya e-posta ile iletiniz. Teşekkürler.
 
 ## Kullanılan teknolojiler
 Java programlama dili, Java SE 17, Eclipse, Spring Framework, Tomcat, PostgreSQL, Maven, Jar, Spring Boot Dev Tools, Lombok, Spring Web, Spring Data JPA, Validation, PostgreSQL Drive, Swagger, Postman, Jakarta, Modelmapper
